@@ -12,7 +12,6 @@ Created in collaboration with industry experts:
 ## Program Curriculam:
 + **WELCOME TO THE PROGRAM**
 Meet your instructors and learn how to optimize your classroom. Learn how people use data to answer questions, and find your own insights from a data dashboard.
-
 **Project 1:** [`Interpret Data Visualization`](https://github.com/vamshi-krishna-prime/Business_Analytics/tree/master/Interpret%20a%20Data%20Visualization) 
 
   > In this project, you’ll explore an interactive data dashboard to uncover insights. You’ll write a short report explaining each insight, and how you found the information to reach your conclusion from the dashboard.
