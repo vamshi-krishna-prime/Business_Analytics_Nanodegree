@@ -53,6 +53,30 @@ body {
     color: white;
   }
   
+  .insights{
+    flex: 10%;
+    background: #11161a;
+    border-right: 1px solid rgba(219,226,232,1);
+    padding: 20px;
+    color: grey;
+  }
+
+  .insights-left{
+    flex: 50%;
+    background: #32161a;
+    border-right: 1px solid rgba(219,226,232,1);
+    padding: 20px;
+    color: grey;
+  }
+
+  .insights-right{
+    flex: 50%;
+    background: #085baf;
+    border-right: 1px solid rgba(219,226,232,1);
+    padding: 20px;
+    color: grey;
+  }
+
   /* Style the image */
   .image{
     padding: 0;
@@ -126,6 +150,7 @@ body {
     font-size: 1.6em;
     margin: 0.4em 0 0.4em 0;
     font-weight: bold;
+    padding-top: 4px;
   }
   
   .main h2{
@@ -143,7 +168,54 @@ body {
     margin: 0.4em 0 2.8em 0;
   }
 
-  
+
+  /* ---------------- */
+
+  .container { 
+    display: flex;
+    padding: .5em;
+    }
+  .orange {
+    background: orangered;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 25px 25px 25px;
+    border-radius: 2% 0 0 2%;
+    border-right: 2px solid white;
+  }
+  .blue {
+    /* background: steelblue; */
+    background: orangered;
+    padding: .5em;
+    border-radius:  0 2% 2% 0;
+  }
+  .green {
+    /* background: yellowgreen; */
+    color: rgb(43, 46, 48);
+    font-weight: bold;
+  }
+  .brown {
+    /* background: brown; */
+    color: white;
+  }
+
+  .brown p{
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .container div {
+    font-size: 2vw;
+    /* padding: .5em; */
+    
+    flex: 1;
+  }
+
+  .line{
+    align-content: center;
+    color: grey;
+  }
+
   /* ---------------- */
   
   /* Footer */
