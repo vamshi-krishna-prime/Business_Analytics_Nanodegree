@@ -133,6 +133,7 @@ body {
     0 4px 8px 0 rgba(255,255,255,.08),
     0 8px 16px 0 rgba(255,255,255,.08);
   }
+
   
   /* ---------------- */
   
@@ -181,7 +182,15 @@ body {
     background: rgba(187, 8, 62, 0.993);
     display: flex;
     flex-direction: column;
-    padding: 25px 25px 25px 25px;
+    padding: 35px 25px 35px 25px;
+    border-radius: 2% 0 0 2%;
+    border-right: 2px solid white;
+  }
+  .image-box-left-align2 {
+    background: rgba(187, 8, 62, 0.993);
+    display: flex;
+    flex-direction: column;
+    padding: 55px 25px 35px 25px;
     border-radius: 2% 0 0 2%;
     border-right: 2px solid white;
   }
@@ -189,7 +198,7 @@ body {
     background: rgb(7, 128, 226);
     display: flex;
     flex-direction: column;
-    padding: 65px 25px 25px 25px;
+    padding: 35px 25px 25px 25px;
     border-radius: 0 2% 2% 0;
     border-left: 2px solid white;
   }
