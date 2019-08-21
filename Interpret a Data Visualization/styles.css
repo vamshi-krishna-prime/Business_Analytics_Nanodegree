@@ -142,6 +142,8 @@ body {
     background-color: white;
     padding: 10px;
     text-align: center;
+    /* font-family: Raleway, sans-serif; */
+    font-family: Roboto, sans-serif;
   }
   
   .main h1{
@@ -175,33 +177,53 @@ body {
     display: flex;
     padding: .5em;
     }
-  .orange {
-    background: orangered;
+  .image-box-left-align {
+    background: rgba(187, 8, 62, 0.993);
     display: flex;
     flex-direction: column;
     padding: 50px 25px 25px 25px;
     border-radius: 2% 0 0 2%;
     border-right: 2px solid white;
   }
-  .blue {
+  .image-box-right-align {
+    background: rgb(7, 128, 226);
+    display: flex;
+    flex-direction: column;
+    padding: 50px 25px 25px 25px;
+    border-radius: 0 2% 2% 0;
+    border-left: 2px solid white;
+  }
+  .text-box-right-align {
     /* background: steelblue; */
-    background: orangered;
+    background: rgb(21, 30, 39);
     padding: .5em;
     border-radius:  0 2% 2% 0;
   }
-  .green {
-    /* background: yellowgreen; */
-    color: rgb(43, 46, 48);
-    font-weight: bold;
+  .text-box-left-align {
+    /* background: steelblue; */
+    background: rgb(21, 30, 39);
+    padding: .5em;
+    border-radius:  2% 0 0 2%;
   }
-  .brown {
+  .heading-box {
+    /* background: yellowgreen; */
+    color: rgb(167, 167, 167);
+    font-weight: bold;
+    /* font-family: Raleway, sans-serif; */
+    font-family: Roboto, sans-serif;
+  }
+  .data-box {
     /* background: brown; */
     color: white;
   }
 
-  .brown p{
+  .data-box p{
     text-align: justify;
-    font-size: 20px;
+    font-size: 18px;
+    /* font-weight: lighter; */
+    font-weight: 100;
+    font-family: Raleway, sans-serif;
+    /* font-family: Roboto, sans-serif; */
   }
 
   .container div {
