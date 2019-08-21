@@ -47,6 +47,7 @@ body {
     border-right: 1px solid rgba(219,226,232,1);
     padding: 20px;
     color: grey;
+    text-align-last: center;
   }
   
   .side-bar h3, h2{
@@ -114,8 +115,10 @@ body {
     margin: 8px;
     display: flex;
     /* flex-direction: column; */
-    width: 60%;
+    width: 95%;
     text-align: center;
+    align-self: center;
+    justify-content: center;
   }
   
   /* Style the buttons on hover */
@@ -192,14 +195,7 @@ body {
     padding: 35px 25px 35px 25px;
     border-radius: 2% 0 0 2%;
     border-right: 2px solid white;
-  }
-  .image-box-left-align2 {
-    background: rgba(187, 8, 62, 0.993);
-    display: flex;
-    flex-direction: column;
-    padding: 55px 25px 35px 25px;
-    border-radius: 2% 0 0 2%;
-    border-right: 2px solid white;
+    justify-content: center;
   }
   .image-box-right-align {
     background: rgb(7, 128, 226);
@@ -208,6 +204,7 @@ body {
     padding: 35px 25px 25px 25px;
     border-radius: 0 2% 2% 0;
     border-left: 2px solid white;
+    justify-content: center;
   }
   .text-box-right-align {
     /* background: steelblue; */
