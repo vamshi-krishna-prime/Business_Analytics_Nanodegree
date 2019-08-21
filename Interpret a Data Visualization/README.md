@@ -30,7 +30,7 @@ Choose from these Dashboards:
 
 ## Model Image:
  The insights are visualized/conveyed using the `Infographic image` in the `PDF document`. 
-<img width="404" alt="Interpret a Data visualization image" src="https://user-images.githubusercontent.com/49973760/63364504-57abda80-c393-11e9-9350-bdcdc85f8afa.png">
+<img width="404" alt="Interpret a Data visualization image" src="https://user-images.githubusercontent.com/49973760/63459154-b5aeef80-c471-11e9-92ad-d9590a1deeea.jpg">
 
 ## Contribution:
 This is a personal projects intended for practice with Data manipulations and visualization. No contributions will be entertained.
