@@ -1,0 +1,181 @@
+/* Style the body */
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  /* Header/logo Title */
+  .header {
+    padding: 10px;
+    text-align: center;
+    /* background: #1abc9c; */
+    background: #02b3e4;
+    color: white;
+  }
+  
+  /* Style the top navigation bar */
+  .navbar {
+    display: flex;
+    background-color: #333;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  /* Change the 'navigation bar links' color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Make Column container flexible*/
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side-bar {
+    flex: 10%;
+    background: #11161a;
+    border-right: 1px solid rgba(219,226,232,1);
+    padding: 20px;
+    color: grey;
+  }
+  
+  .side-bar h3, h2{
+    color: white;
+  }
+  
+  /* Style the image */
+  .image{
+    padding: 0;
+    border: 0;
+    margin: 5px 10px 5px 10px;
+    width: 200px;
+    border-radius: 20%;
+  }
+
+  .screenshot{
+    padding: 0;
+    border: 0;
+    margin: 5px 10px 5px 10px;
+    width: 600px;
+    border-radius: 2%;
+  }
+
+  .screenshot:hover{
+      transform: scale(1.4);
+  }
+  
+  /* Style the buttons */
+  .btn{
+    font: .8125rem/1.5rem "Open Sans",sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    height: 3rem;
+    padding: 0 2rem;
+    background: #02b3e4;
+    color: #000;
+    border: transparent;
+    border-radius: .25rem;
+    cursor: pointer;
+    margin: 8px;
+    display: flex;
+    /* flex-direction: column; */
+    width: 60%;
+    text-align: center;
+  }
+  
+  /* Style the buttons on hover */
+  .btn:hover {
+    color: #fff;
+    box-shadow: 0 0 8px 0 rgba(255,255,255,.16),
+    0 4px 8px 0 rgba(255,255,255,.08),
+    0 8px 16px 0 rgba(255,255,255,.08);
+  }
+  
+  /* Style the buttons on click */
+  .btn:focus {
+    color: #fff;
+    box-shadow: 0 0 8px 0 rgba(255,255,255,.16),
+    0 4px 8px 0 rgba(255,255,255,.08),
+    0 8px 16px 0 rgba(255,255,255,.08);
+  }
+  
+  /* ---------------- */
+  
+  /* Main column */
+  .main {
+    flex: 70%;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .main h1{
+    text-align: center;
+    display: block;
+    font-size: 1.6em;
+    margin: 0.4em 0 0.4em 0;
+    font-weight: bold;
+  }
+  
+  .main h2{
+    display: block;
+    font-size: 1em;
+    color: black;
+    background-color: white;
+    margin: 0.8em 0 0.8em 0;
+    font-weight: bold;
+  }
+  
+  .main h3 {
+      font-weight: bold;
+    font-size: 1em;
+    margin: 0.4em 0 2.8em 0;
+  }
+
+  
+  /* ---------------- */
+  
+  /* Footer */
+  .footer {
+    padding: 4px;
+    height: 4em;
+    text-align: center;
+    background-color: #191a1a;
+    color: grey;
+  }
+  
+  .footer h2{
+    font-size: 20px;
+    color: whitesmoke;
+  }
+
+  .footer div{
+    font-size: 20px;
+    color: purple;
+  }
+  
+  .footer img{
+    border: 0;
+    width: 88px;
+    height: 31px
+  }
+  
+  /* Responsive layout - when the screen is less than 700px wide, it makes the
+  two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+    .row, .navbar {
+      flex-direction: column;
+    }
+  }
+  
