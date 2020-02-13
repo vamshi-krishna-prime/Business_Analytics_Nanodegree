@@ -1,6 +1,6 @@
 /*
 Udacity's certified program > Business Analytics Nanodegree
-SQL practice > Lesson 1 : SQL Basics
+SQL practice > Lesson 2 : SQL Joins
 
 If we wanted to only pull individual elements from either the orders or
 accounts table, we can do this by using the exact same information in the
