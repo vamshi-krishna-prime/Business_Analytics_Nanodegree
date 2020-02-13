@@ -1,6 +1,6 @@
 /*
 Udacity's certified program > Business Analytics Nanodegree
-SQL practice > Lesson 1 : SQL Basics
+SQL practice > Lesson 2 : SQL Joins
 
 Try pulling 'standard_qty', 'gloss_qty', and 'poster_qty' from the 'orders'
 table, and the 'website' and the 'primary_poc' from the 'accounts' table.
