@@ -1,6 +1,6 @@
 /*
 Udacity's certified program > Business Analytics Nanodegree
-SQL practice > Lesson 1 : SQL Basics
+SQL practice > Lesson 2 : SQL Joins
 
 Provide a table for all 'web_events' associated with account 'name' of
 'Walmart'. There should be three columns. Be sure to include the 'primary_poc',
