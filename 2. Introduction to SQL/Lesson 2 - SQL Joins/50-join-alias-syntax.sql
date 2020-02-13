@@ -1,6 +1,6 @@
 /*
 Udacity's certified program > Business Analytics Nanodegree
-SQL practice > Lesson 1 : SQL Basics
+SQL practice > Lesson 2 : SQL Joins
 
 When we JOIN tables together, it is nice to give each table an alias.
 Frequently an alias is just the first letter of the table name. You actually
