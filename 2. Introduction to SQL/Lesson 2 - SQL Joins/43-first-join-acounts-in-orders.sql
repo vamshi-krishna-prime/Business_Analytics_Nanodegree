@@ -1,6 +1,6 @@
 /*
 Udacity's certified program > Business Analytics Nanodegree
-SQL practice > Lesson 1 : SQL Basics
+SQL practice > Lesson 2 : SQL Joins
 
 First JOIN
 JOIN / merge 'id' column in the accounts table with 'account_id' column in the
