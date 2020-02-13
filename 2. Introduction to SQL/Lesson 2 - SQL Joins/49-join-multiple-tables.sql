@@ -1,6 +1,6 @@
 /*
 Udacity's certified program > Business Analytics Nanodegree
-SQL practice > Lesson 1 : SQL Basics
+SQL practice > Lesson 2 : SQL Joins
 
 Pull data related to 'channel' from 'web_events' table, 'name' from 'accounts'
 table and 'total' from 'orders' table
