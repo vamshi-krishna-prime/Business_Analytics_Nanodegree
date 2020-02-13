@@ -1,6 +1,6 @@
 /*
 Udacity's certified program > Business Analytics Nanodegree
-SQL practice > Lesson 1 : SQL Basics
+SQL practice > Lesson 2 : SQL Joins
 
 Provide the name for each region for every order, as well as the account name
 and the unit price they paid (total_amt_usd/total) for the order. Your final
