@@ -1,6 +1,6 @@
 /*
 Udacity's certified program > Business Analytics Nanodegree
-SQL practice > Lesson 1 : SQL Basics
+SQL practice > Lesson 2 : SQL Joins
 
 Try pulling all the data from the 'accounts' table, and all the data from
 the 'orders' table.
