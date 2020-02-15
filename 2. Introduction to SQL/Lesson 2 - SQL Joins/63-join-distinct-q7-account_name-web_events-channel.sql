@@ -1,6 +1,6 @@
 /*
 Udacity's certified program > Business Analytics Nanodegree
-SQL practice > Lesson 1 : SQL Basics
+SQL practice > Lesson 2 : SQL Joins
 
 What are the different channels used by account id 1001? Your final table
 should have only 2 columns: account name and the different channels. You can
