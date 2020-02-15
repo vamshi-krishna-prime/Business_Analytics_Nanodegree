@@ -1,6 +1,6 @@
 /*
 Udacity's certified program > Business Analytics Nanodegree
-SQL practice > Lesson 1 : SQL Basics
+SQL practice > Lesson 2 : SQL Joins
 
 Provide a table that provides the region for each sales_rep along with their
 associated accounts. This time only for accounts where the sales rep has a
