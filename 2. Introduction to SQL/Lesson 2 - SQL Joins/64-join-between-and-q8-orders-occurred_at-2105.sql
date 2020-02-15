@@ -1,6 +1,6 @@
 /*
 Udacity's certified program > Business Analytics Nanodegree
-SQL practice > Lesson 1 : SQL Basics
+SQL practice > Lesson 2 : SQL Joins
 
 Find all the orders that occurred in 2015. Your final table should have
 4 columns: occurred_at, account name, order total, and order total_amt_usd.
