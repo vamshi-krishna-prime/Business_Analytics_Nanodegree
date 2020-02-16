@@ -7,7 +7,6 @@ regarding standard paper, gloss paper and poster paper
 */
 
 
-
 SELECT AVG(o.standard_qty) standard_qty_average_order, AVG(o.gloss_qty) gloss_qty_average_order, AVG(o.poster_qty) poster_qty_average_order
 FROM order o;
 
