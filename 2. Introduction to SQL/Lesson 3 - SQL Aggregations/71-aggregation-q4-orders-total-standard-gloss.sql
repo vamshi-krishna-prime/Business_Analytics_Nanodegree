@@ -8,6 +8,5 @@ each order in the table.
 */
 
 
-
 SELECT (o.standard_amt_usd + o.gloss_amt_usd) AS total_standard_gloss_amt
 FROM orders o;
