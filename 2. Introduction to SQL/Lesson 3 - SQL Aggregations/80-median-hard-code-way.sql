@@ -10,7 +10,6 @@ solution in the following way.
 */
 
 
-
 SELECT *
 FROM (SELECT total_amt_usd
       FROM orders
