@@ -10,7 +10,6 @@ aggregation function.
 */
 
 
-
 SELECT o.occurred_at earliest_order
 FROM orders o
 ORDER BY o.occurred_at
