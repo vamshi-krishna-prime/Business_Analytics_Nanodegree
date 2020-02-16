@@ -9,7 +9,6 @@ aggregation function.
 */
 
 
-
 SELECT w.occurred_at most_recent_web_event
 FROM web_events w
 ORDER BY w.occurred_at DESC
