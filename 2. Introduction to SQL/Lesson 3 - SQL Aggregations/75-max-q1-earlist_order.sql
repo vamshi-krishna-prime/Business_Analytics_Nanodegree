@@ -7,6 +7,5 @@ the date.
 */
 
 
-
 SELECT MIN(o.occurred_at) earliest_order
 FROM orders o;
