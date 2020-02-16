@@ -7,7 +7,6 @@ regarding standard paper, gloss paper and poster paper
 */
 
 
-
 SELECT MIN(o.standard_qty) standard_min, MIN(o.gloss_qty) gloss_min, MIN(o.poster_qty) poster_min, MAX(standard_qty) standard_max, MAX(o.gloss_qty) gloss_max, MAX(o.poster_qty) poster_max
 FROM orders o;
 
