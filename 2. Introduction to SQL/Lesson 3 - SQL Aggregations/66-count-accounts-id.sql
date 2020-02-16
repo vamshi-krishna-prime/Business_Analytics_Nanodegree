@@ -6,6 +6,5 @@ find the count of id's in the accounts table.
 */
 
 
-
 SELECT COUNT(a.id) id_count
 FROM accounts a;
