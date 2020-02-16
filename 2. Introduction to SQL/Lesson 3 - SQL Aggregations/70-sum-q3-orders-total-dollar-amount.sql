@@ -7,6 +7,5 @@ the 'orders' table.
 */
 
 
-
 SELECT SUM(o.total_amt_usd) total_dollar_amount
 FROM orders o;
