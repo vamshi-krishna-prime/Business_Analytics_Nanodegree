@@ -1,6 +1,6 @@
 /*
 SQL practice in Udacity's Business Analytics Nanodegree Program
-SQL > Lesson 5 > SQL Data cleaning
+SQL > Lesson 5 > SQL - Data cleaning
 
 Quizzes POSITION & STRPOS:
 You will need to use what you have learned about LEFT & RIGHT, as well as what
