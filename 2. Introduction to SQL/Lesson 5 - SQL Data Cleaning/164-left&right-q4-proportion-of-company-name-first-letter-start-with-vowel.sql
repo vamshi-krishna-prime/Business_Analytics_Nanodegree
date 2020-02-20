@@ -1,6 +1,6 @@
 /*  DOUBT : why final solution not working ?
 SQL practice in Udacity's Business Analytics Nanodegree Program
-SQL > Lesson 5 > SQL Data cleaning
+SQL > Lesson 5 > SQL - Data cleaning
 
 LEFT & RIGHT Quizzes
 
