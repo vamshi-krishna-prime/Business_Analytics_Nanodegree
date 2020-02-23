@@ -4,6 +4,7 @@ SQL practice > Lesson 6 : SQL Window Functions
 
 WINDOW FUNCTIONS:
 
+
 Section 21: Percentiles with Partitions
 
 You can use partitions with percentiles to determine the percentile of a
