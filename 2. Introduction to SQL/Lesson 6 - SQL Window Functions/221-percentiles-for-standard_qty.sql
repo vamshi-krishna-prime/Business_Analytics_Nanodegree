@@ -3,9 +3,7 @@ Udacity's certified program > Business Analytics Nanodegree
 SQL practice > Lesson 6 : SQL Window Functions
 
 WINDOW FUNCTIONS:
-
 Section 20: Percentiles with Partitions
-
 
 NTILE function
 
