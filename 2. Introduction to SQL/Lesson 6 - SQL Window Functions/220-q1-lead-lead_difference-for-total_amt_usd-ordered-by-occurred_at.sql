@@ -3,9 +3,7 @@ Udacity's certified program > Business Analytics Nanodegree
 SQL practice > Lesson 6 : SQL Window Functions
 
 WINDOW FUNCTIONS:
-
 Section 17: Comparing a row to a previous row
-
 
 LAG & LEAD functions
 
