@@ -1,6 +1,6 @@
-/*  DOUBT : why final solution not working ?
-SQL practice in Udacity's Business Analytics Nanodegree Program
-SQL > Lesson 7 > SQL Advanced JOINs and Performance Tuning
+/*
+Udacity's certified program > Business Analytics Nanodegree
+SQL practice > Lesson 7 : SQL Advanced JOINs
 
 Advanced JOINs:
 
