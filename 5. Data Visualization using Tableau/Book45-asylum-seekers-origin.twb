@@ -1,0 +1,504 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20194.19.1010.1202                               -->
+<workbook original-version='18.1' source-build='2019.4.0 (20194.19.1010.1202)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <SheetIdentifierTracking ignorable='true' predowngraded='true' />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='asylum-seekers-monthly-2016-12-08-152150-worked-on' inline='true' name='federated.0m3t20d1wclats1b6bix512q1b7r' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='asylum-seekers-monthly-2016-12-08-152150-worked-on' name='textscan.14ptze017u5fwb16wwg6400ooi2l'>
+            <connection class='textscan' cleaning='yes' compat='no' csvFile='D:/prime-data/Udacity/individual nanodegree/Business Analytics/5. Data Visualization/4-make-dashboards-and-stories-in-tableau/asylum-seekers-monthly-2016-12-08-152150-worked-on.csv' dataRefreshTime='' directory='D:/prime-data/Udacity/individual nanodegree/Business Analytics/5. Data Visualization/4-make-dashboards-and-stories-in-tableau' filename='C:/Users/VAMSHI~1/AppData/Local/Temp/TableauTemp/00koxfv1i00x8t1975y2x1ml5ksf/asylum-seekers-monthly-2016-12-08-152150-worked-on.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.14ptze017u5fwb16wwg6400ooi2l' name='asylum-seekers-monthly-2016-12-08-152150-worked-on.csv' table='[asylum-seekers-monthly-2016-12-08-152150-worked-on#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Country / territory of asylum/residence' ordinal='0' />
+            <column datatype='string' name='Origin' ordinal='1' />
+            <column datatype='integer' name='Year' ordinal='2' />
+            <column datatype='string' name='Month' ordinal='3' />
+            <column datatype='integer' name='Value' ordinal='4' />
+            <column datatype='date' name='Date' ordinal='5' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[asylum-seekers-monthly-2016-12-08-152150-worked-on.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;Rs&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country / territory of asylum/residence</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country / territory of asylum/residence]</local-name>
+            <parent-name>[asylum-seekers-monthly-2016-12-08-152150-worked-on.csv]</parent-name>
+            <remote-alias>Country / territory of asylum/residence</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Origin</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Origin]</local-name>
+            <parent-name>[asylum-seekers-monthly-2016-12-08-152150-worked-on.csv]</parent-name>
+            <remote-alias>Origin</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[asylum-seekers-monthly-2016-12-08-152150-worked-on.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[asylum-seekers-monthly-2016-12-08-152150-worked-on.csv]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Value]</local-name>
+            <parent-name>[asylum-seekers-monthly-2016-12-08-152150-worked-on.csv]</parent-name>
+            <remote-alias>Value</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[asylum-seekers-monthly-2016-12-08-152150-worked-on.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column aggregation='None' datatype='string' name='[Country / territory of asylum/residence]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.518212' measure-ordering='alphabetic' measure-percentage='0.481788' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='5-asylum-seekers-monthly-2016-12-08-152150-worked-on' inline='true' name='federated.1ssb24t1lukwed10oevqm088qfu4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='5-asylum-seekers-monthly-2016-12-08-152150-worked-on' name='textscan.1v537fx14xnqlv19nezri1yidw2i'>
+            <connection class='textscan' directory='D:/prime-data/Udacity/individual nanodegree/Business Analytics/5. Data Visualization/4-make-dashboards-and-stories-in-tableau' filename='5-asylum-seekers-monthly-2016-12-08-152150-worked-on.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1v537fx14xnqlv19nezri1yidw2i' name='5-asylum-seekers-monthly-2016-12-08-152150-worked-on.csv' table='[5-asylum-seekers-monthly-2016-12-08-152150-worked-on#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='string' name='Country / territory of asylum/residence' ordinal='0' />
+            <column datatype='string' name='Origin' ordinal='1' />
+            <column datatype='integer' name='Year' ordinal='2' />
+            <column datatype='string' name='Month' ordinal='3' />
+            <column datatype='integer' name='Value' ordinal='4' />
+            <column datatype='date' name='Date' ordinal='5' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[5-asylum-seekers-monthly-2016-12-08-152150-worked-on.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;Rs&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country / territory of asylum/residence</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country / territory of asylum/residence]</local-name>
+            <parent-name>[5-asylum-seekers-monthly-2016-12-08-152150-worked-on.csv]</parent-name>
+            <remote-alias>Country / territory of asylum/residence</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Origin</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Origin]</local-name>
+            <parent-name>[5-asylum-seekers-monthly-2016-12-08-152150-worked-on.csv]</parent-name>
+            <remote-alias>Origin</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[5-asylum-seekers-monthly-2016-12-08-152150-worked-on.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[5-asylum-seekers-monthly-2016-12-08-152150-worked-on.csv]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Value]</local-name>
+            <parent-name>[5-asylum-seekers-monthly-2016-12-08-152150-worked-on.csv]</parent-name>
+            <remote-alias>Value</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[5-asylum-seekers-monthly-2016-12-08-152150-worked-on.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <column aggregation='None' datatype='string' name='[Country / territory of asylum/residence]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.518212' measure-ordering='alphabetic' measure-percentage='0.481788' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='5-asylum-seekers-monthly-2016-12-08-152150-worked-on' name='federated.1ssb24t1lukwed10oevqm088qfu4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1ssb24t1lukwed10oevqm088qfu4'>
+            <column datatype='string' name='[Origin]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Value]' role='measure' type='quantitative' />
+            <column-instance column='[Origin]' derivation='None' name='[none:Origin:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Value]' derivation='Sum' name='[sum:Value:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1ssb24t1lukwed10oevqm088qfu4].[none:Origin:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1ssb24t1lukwed10oevqm088qfu4].[sum:Value:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1ssb24t1lukwed10oevqm088qfu4].[none:Origin:nk]</rows>
+        <cols>[federated.1ssb24t1lukwed10oevqm088qfu4].[sum:Value:qk]</cols>
+      </table>
+      <simple-id uuid='{76860AE8-6BBD-4F15-8762-332A1AD191B4}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1ssb24t1lukwed10oevqm088qfu4].[none:Origin:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5F84F0BB-9A31-4B91-9D29-FBD539DB192A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nO2dWYxcV3rff/fWrX3fu6qr952kKImSRjOjWWzNaMawEwewkQBBkARIAhgI
+      kDzkPS8BAgRIHuKXxAiQvDgI4sABPH6YJI4HE49nkTQiJVHcm713dS3dte91tzyQokRx6yZv
+      s29Xn98DQdby1bmX9a9zz/9+33ck0zRNBIIzinzSAxAIThIhAMGZRghAcKYRAhCcaYQABGca
+      IQDBmUYIQHCmGUkBWHlrwzRNy+NZyVmKdxz/F4pl0WxEfr9Bd6BbEuvzky7L1vxW6LqOw+Gw
+      JNZZi3ccYzsxAbRqFdyhOGa/Qa1nMpaIYJomg8EAj8fzQrH/+C+u8v6NPYtGKhhlTkYApsnO
+      zjqBhEH+1sfE5y/QvpUnlJwgv/YZyakVnGqDLj4SAZntvRqTYwEGSoTyzhYuvU8ZNwsJP03N
+      RSrkIl88YHZhAZdjJK/qBMfEiQjAGDbY3q3g7zmZmV3C6dKQg9McFDbxR5IMO1W6vQ675R0G
+      mTTZoINivYnD7aDV7pJLJVkcS1LfXGV9t4Y2nSEeCdLq9ImHfCdxSIJTyokIoNce8M57P6Rb
+      KeFyunA7DT64/CGR5DjTySSmadDQhiSSKeKJBD4XhIcqssND06XgC/vY3tgh7HSSTCaJxhIE
+      PU4Mx0guaQTHiGSHbFBdHZDfK5HKjuNxvvgi56dX1tnZb1kwMsAEExNJkiwJZxiGZQvqsxbv
+      OMZmCwFYjaZpKIo1s4FhGJimaZn7oKoqTqfTklhnLZ6maTgcDst+jFRVHU0b9I9+9BGXV0vW
+      BDPv/2HRSce0MNZZi3cMYzsmAahc+eAKrkiSC0uzDz3TaNQJhyOPvMPoV/mry5v85juXHnr8
+      IJ/HNzaGz+Gg1Shw7eo2gVSSV74S98u0ekOqzZ41hyIYaY5JAAqhkJeuYXB3dRW3ItPudDA9
+      YRx6j7ufvs9a08W58QCtnsorb75DdXefTESh3Kyz+ulNxpI+/upX1/nWNy+x+WmBcHycsbCJ
+      bhjIkszP/vf/ZKcf4LWpKO2BzsprbxPyCAtUcDSO6RujoarQH/TJxDyU2iaRSIzF+SkURUH2
+      BBlLhIkks6zMT2EC7W4HQ4JK8YD5pRUckoOV2SlMhwwmuFwuJMXF3NwMXreTSHKcV5bmMEwD
+      h+JC7bcZqMbxHI5gZDn2RXBpdxNffJyg17qF1Zep12pEotGHHvtPf/5rPlkrW/MBn58dqy49
+      TQtjnbV4xzA24QI9A+EC2SeecIEOyU8ub7BZaloTzDTv3wewr5d9VuIdx9hOnQDa9QMc/gRP
+      u6K6sloQyXCCQ3HqBDDot+n0der7NWIBib26xkzKz3r+gKXzrxDxu096iIJTxKn0DQf9IXNz
+      c1QrFUq7efbbPeJhH8OhNTUAgrPDqZsBwrEMflPC5VSYnl0gPeUgEnCxsbGJIlKhBUdkJF2g
+      crXFULPmsEzTvHevQbbGBdJ0DcXCrNWzFE/TNRwOxTInVNO10zcDHIZ2b0irp1oSS5RE2iee
+      bUsi9/e2KDc1VpbmkI8oz/zmKvWBzMriF+/VBl0MxYfrOY/1T356XbhAgkNhiQC6Q5OptJu7
+      G3vksnHUwZCD4jbh9CSV/Cap8Ryd/pB+/YBgahKjXaapuVianWCgS8xPT9CsFNhvG2QiLm7c
+      uMHUyptUirtMjWc5qNfwuCXqbRO9vsUwME3UB2GPg1JLJx1xs1esMre4iFsR6wDB4bFEAJ36
+      PmvrbZZXZqk1WzT3qwx6PRzeCs1WD1+rSW+g0u70KKzeJR31oyj3LlE6zSr5gpfC1k1MVwSt
+      H2BhdoK7qzcZ6gOkoY4nl6G9n2dvu8jsuXlyiRx7W3doNVRiHljd8zCTDNPp9nGLkkjBEbBE
+      ANmpeWYXZJqdPsW9HcKJDLI0wOX24fO5cXsDeH0mar9HOBkjFvI9yLHJTS8QjUbx0KXShUhA
+      YXe/zfTsFPndPRKpJIFomFqrQjKbJej3s5ffIRaLYfSb7LcMZscT+N0KpuN48o0Eo8tIukC/
+      uLpFodqxJJbli2DDwGHh7fyzFM/qVAhdlEQ+G5EMZ594IhnukPzhn37Ar28XrAto85TesxDv
+      H/7Wa7z3xvSLB/oKp0IAaueAj65tMj6WQJU9TGaStFtNQsEAmm7iVBwMNQ23y4UkSQw1nd5A
+      O+lhCyxE04+n2OlUCKBZqrH0xhvE9Da/+vQ2jXoNn0tmb2uNbsdgbCrKz/7qCt//m79LOuQ9
+      6eEKThGnQgCR8TRXrlymPZZicmYe1O69HqKBLONJk/1Bm/mZaUxTlEQKjsapEIDDHeKtr735
+      pUce7ioRAfhSk4hMLMBCLmbJZ5v326JYtfAyTetinaV4kcCLNUx+Eg9cIF3X0fXRSCeWZVm4
+      QCMY71hdIMMw0LTRWDj+5ZUt1gsNS2J97hKL1ojWxhtPhvjbv3HOss95Xux1CWQa/OTHP6Ir
+      BfnBD7+P2wE7Oztks+MMO1WGzihhr4NBq4Xm8eB/wi/L9Y193r8pkuHszPmZpBDAo5h4I0lC
+      eo/r1z7mo09u8/r5BaqlEtGIk67U5M8/+JS5sIN12c/FqMSVnT5vzkZZ3S7z7e/9kEToeK4V
+      BaOJ7VIn240aselXGFYLdA72qbc77JWqDDs1VMmD2aniTWaYzuXYK5Y42NqmowT41luvMlSH
+      Jz18wSnDZjOAzHfe/QEej5uxyNfJLlwiHgvjcUp0eipOl5PA979HLpelUNwn+M5vcPHrTqKR
+      IE6HDBa1LhGcHR64QJqmjcwiuK8aWHXj8F5JpGlZQpem6ygWVjWd1niK4iB8xA4ex+oCKYpi
+      mXV40mwUyzQ61lwOiZJIa+Odn0kS9Nmndc3zf+P1Ae2hRMDresILTAqFIsFgkEAgAEC72cAb
+      DON4jIC/fKK0YZebN26TnlogFQ08dRimobO5sYbDE2Yim0aS4M9+fkuURNqUf/MH32NlKnnS
+      w3jA8wtA7XLQNGntN8DpYf+gwszsFPn1TSLj06T9Gh3VyaBygDFok6/0cEsDYobG9k6J+dks
+      q+t5PE6ZUCKL1mugmCqqM0wi4CCdm2F/bwenGqLcNon7oVjpsLS0iNMhMew2uXV3m0TYz9pu
+      ieUZF62+Rsg7GrOY4OXwgvO6TqUxQNb7dFv73N3ME0pk6TUaqO06Dn8IgG63S6/bQtOhUa/T
+      q2yyvlMmnMjiDEQYtGp0uy1qLZVsMgKmxrUrH4AnxI0b1zkol6h1BmRiHir1LgDb2zvMzk5Q
+      a6msLC0Q8HnQVGs6QQjODs//c6l4iQYMoh4PitnHH0mRSiYJ+gOoPheugAN9e59kLApqF7fH
+      IJ6MIpsqncQEiUQcr8+PaboxNRVNC9JrVsiX62QTQd7+1nfottvE5uapdEzUboNCP8D0pEF/
+      qJHLZbm9tsXM3CISGs1KmWgoZeGpEZwFjrUirNFoEA6HLYn11Cov06DRbBMKh5CAX9/cpXx/
+      pnhRTJP7i2CRCmFFvG9cmCAWfL6U9eNwgURJ5DMQyXD2iXfmSiI1VcWhONG0o53Ef/vffylc
+      oJfITCbCv/9nv3XSw3gubH3r9Jd//f/oayo//l//B0PXaDbbaJqKpmm0axW6qkaz0URVVZqt
+      NiM4mQmOGVvPANlUjK07twmmJ1m/+QlX7+R5/Y3X2N+vkQ34aFQPcElu1J0WEjrBzBy5ePCk
+      hy04Rdh6BgjEM/SHKtPpMMFQhKmZGVxOhUQ0iKk4CQcCtJpNPB4PnZ6Gzy0aYwmOhq1ngLFM
+      lrFM9sG/05OPviaXHgceqohkKh2mO7Cous0073X2ECWRT2Qs9vS79XZGuEDPQLhA9ol35lyg
+      5+XPfn6bO7tVa4LdL4pHzABP5B//ziXSUb9lY3iZnBoBqMMuzbZOPPbFIrdYKhFwe/BEwg8d
+      yOpuhQ+EDfrS+Lvfe+Wkh/DcnBoBmIZGr9ng12s38IaSuLQmu7U+S7kMA7XJh5dv883vfIew
+      70nZqQLBo9jaBfoqpmGQmZon4JEZqjoBn5dBv0+1WseFSbM/OOkhCk4Zp2YGcLoDZCd9IMmY
+      Zhg9lWJoSHhdCmCQzs7g94vNMQRHYyRdoG5/gFWTm9gl8tl4XMoTkwWFC3QCrO5WqTT71gS7
+      XxNsVYbky87e9LgUvnlh4tDxVBVLbVC7Y2sB7KzfolhpM7/yCtHAF3WknVYTTyD02NJKgB+/
+      vyqS4e6TjPiOJICzhq0FMDE7S3e4izRoM3SbtOpdGo0DDGQC3QEBn8LGdpF0Mkk46GVgKoRs
+      VHAtsD+2FsDn1MsHmIpBqVjDFfbi7NXYyPcJGE26hkLX72VnN8/yhQsnPVTBKcPmAnCQSifw
+      KRq3t4pks1m8fg+oYaKaim6Osb1bIuB3U2158D3vztqCM8tIuECGrmFK8oPmVZ/eLVi2CLa6
+      L5Bh6MgWOUqHiXf0RbDIBTp1yF+x7RZyMRaEDQqAW8yKT8VWAtDVIe3egGAwgPwllT8pu/NJ
+      j//hn34gXKD7/Ot/8i4XZkW3jCdhKwHcuXkNxRfCobgwtAH93oBEOkl+N8/U9CTNWhWcPpyS
+      Rruv0Wk3Gc+MYRg6jVaPRCL2kHAEgmdhKwFMTE5yZ30Tj6RSNUJ4tDaJ9P02eqbB6q1rlPsu
+      ppN+erqEXzG4eqNNLubm/cs3ePvd7zMWFukQgsNjKwG0GnVAxukLMRMbp1naAWDYqXPjjorL
+      GyDh8xJNxolLErpuENJ6dIYa2WwGx6lK7RPYAVsJIDM1T2bqi3+HJu+5FwvnX33me2fnvvj7
+      Qi6OadV25yaYVu4SaZhIFjXZOky84BFbkJ81RsIG/SqiJHI04wkb9JD8j59e5+a2VSWRp6Mo
+      /hvnc/z21xcsi3tWsK0AqvlVynoEn9ElGI0QfUKP0Xa98UhJ5FapwdW10ssZqE2YTFnTg/Ws
+      YVsB4HDSq1bQZRPV1OnVy2wV9kknU1y7do0L55bJ14eMhYNEB3V+/qtrfPe994j6RUmk4PDY
+      2jeZGE+xs3fAcDik3x/gVCQ6rQ7BaBKvopObO4fDGFKrNwn5PHQGoiRScDRsOwNEU5MgyXz/
+      N7+BJEnUSjuUG31WVs6zaGooTieSLEN4HjCZnF7C6To7hRwCaxhZF8gq18bqZDgrHaqvxrNi
+      cS1coBHg49XiyG+QEQl6eed+lqeVrtJZ49ACqJZ22SrWmF9cJuh9sqJrpR02izXmFpcJPXEH
+      yXuovSbre3WWZrKohky303pkRxlDG3Dr1m2SuVmSkcP1oPzLy+sjnwy3OBF/IADB83NoAfSG
+      GudWllhbWyfgBt0VQepVqHdVTMnJqxfPIQODns7iUo6d3X32tTruSIperYjmDLE8P4UEFHfW
+      2W/puNUydSVHPX+HD7eGTMYdbG7oTE7PsLuzzfT8Ms3iDuNzy3ilIZ99+gnJ3ASNvQKmL0TM
+      Y5AvtpiYSrK7d8Di8jI+10hOaoJj4mhzsaGhqSq3V9eo1euYiodoIEAq6OPzbanVfotf/Pxj
+      khGTG+tl6rUqDm8EZdDh833oDxpdEq4Brtg4czNTRKJx5hbmcXv8LMwkufPZDartDo12D4cM
+      qqbTPtglODZLpbSD0xfHIxvU2gNiHgdb5QrT6RDlWsfSkyMYfQ4tgIDXza3VLZbOrXBuaYFI
+      OEwymSKRThNNJtCaDYYGJHIzvPvud5GVIBcW0oQjYQ4K23jiafqNBroJuXSMphwmm0wQcAG+
+      GFptj2giidsX5dyrF4gH/IT8HtITM9R31zH8WYbVHbKT86TSURLJBGqjwC+vbzA/mSVf7TOe
+      EJtjCI7G8btAFqcSPBz63tC/GvvmZplGZ/i4tzzXZ1jpAum6bolDFfC6uDCbsrVrY3W80+kC
+      SZJVeZmPCf34yJl4gFTUms8w7zfGclhlg+o6igUC8HnEPQ8rsNWKsdft4nK5kBQFGVDVIQ6H
+      87EW5Oe/LMN+H8Xjeeha7j/+6KORd4H+wQ9f5fe/u3LSwzj12EoAm1ubLC4ssr+3Sal2r/FV
+      JBhiezdPbmqawuYapsOFLxync7CF7E+R9LvxhtxsbJVZXlnG4xRF4ILDY6tcIMMwMA2dcrVD
+      Iuig0R6wt1dkbmGO/M4m0XQGvz+GwxwSjKVx6wOanQ7VSpV6cY/9ljU3vwRnB1vNAFPjaW6v
+      7zKRiVOs9ZmfSeNyyNxd22RuYRkZEyMEoFPf30MKx0kEPWAO6U3IxP2ekz4EwSljJHOBzoIL
+      NJkOk00Ebe3aWB3vdLpAJ8BpdYH8XhcecSf7pWLLs93tdPD6/c9tn55WF+gPfvcNUdb4krGd
+      AExd5frVK8y98nU8ZpehZtLptnE6nbi8IWS1jebwoRg9OkMJl6nhCfupVltkM2M4LOy4IBh9
+      bCeAbr1As6uzk9/DbJWYSsdoGD7USgmvq8rO9jbOYIpY0IEpO/HLMn2tzbVP7qD4v0Mmcjr3
+      qxWcDLYTQKcv87Vvvk11v4IvOk3ALTPmimD4FUzdRBv0kP0xomEvEhLmYIjOkGQqhVOxlasr
+      OAXYTgCp8RwAwcncg8diAN57DV6T6fRj35fNzTz4+/npFF63NcXxT8o3el6eVhAjkvlePiNp
+      g4rGWKMZT9igh+S//sVVrm0eWBPM6taIT2iM9dtfX+DdSzOPeYfgOLGdAPL5PcbH02ys7zIz
+      O/XsNzyGQrXN6q5FneFeEtVm76SHcCaxnQD6zQoflwsMdAeGAbKkMui1aDT6ZKbGKe5sEc/N
+      c+vyL8kuXUKt7hBOpImGQ8i+CImQ96QPQXCKsJ1t4vCGeP31V4kGvFRL22zmy7gDUVZmM3T7
+      QzAN2vU6vvgYaq/J2MQ0c1PjrK5vEwmIXCDB0bDdDDA1NQnA4tIisPjQcxP1fe40W0zNznLR
+      t/zg8U69zOTsAsr9m2AuxYHXbdGhfW4RWHV/zXx8LEVYuCeCcIGegXCB7BNPuECH5IMbeQpV
+      azpEmKaJiYksWbVN6qP3AYI+Nz/82twT3iE4TmwpgGppl51yg6Xlp1d47e/vE/T5cfp9fPlV
+      P7u6daqS4XLJkBDACWFPAVQreH1R1G6Nm2vb5Gan2b29Dm4FfziBz+zQMb2YWhejP8StdtjY
+      KrG8soJX7IsrOAK2XHllJmbx0efW2hYzC/OU9jaIp6eIRJO45AGVSp31tTVMoNNpU6lU7pVE
+      tkVJpOBo2HIGUPttWrrC66+c586dDeaXLmAM4Z6FYuDCJDI+Qyzovadgc4iqOUkKG1RwREbS
+      BVrLV2j3VEtivYySSLdLYXky8Vzx7OzaWB1PuECHJOh14bbopN8riTRwyC+2tkhEfHhciuVf
+      MMGLYUsBmKbBQamIwxcmFjp6gct//vHHtnOB/tU/+g1enR876WEIvoItBVAvbtNQ3cS9Bp36
+      AdUexAMy5caQTCJMvdnCo8BBWyOsSLjDPkqlOjPTk6IkUnAkbCmAXndAKBrgzvoWZqtIFz+N
+      WJCIX+H2rRKR3Ay10i5D3URSFNxGj6276/hicbKH3ERDIACb2qDJ8XH2NrcIh0KMjWWIx+OE
+      A272GyrZ8SzpaBCt1yRfqhIMhXA4FKKxGB5F3AMQHA1bzgBOT4DXLr3xyONf3hAomRojlguR
+      TMUAGMtMPnju0kLmudYOj+OeSWYivWAqRDzss2Q8AmsZSRtUJMONZjxhgx6S//Ljj/l0rWxJ
+      LPP+H897zv/dP/0BXrewPe2KbQXQqhZZzTc4n3VRVD04lRjZhPuR17XrDTyR8EMHUmn22N1v
+      vbzBPoXRm19HC9sKoFJtEXBLDFUNTdPYXP2MWjpGbfMaTXeGrF+lpbmZiIXwdvf5X//3Q37n
+      936PZFCkQwgOjz0FYKrs75cxDQOnHEX2+ZEkE9lQcQSTRBQnsXSamAlGf0Cz3WdpdhpVUwEh
+      AMHhsacAJCdvfeOdhx6ayWaf+paFL1VPBr0uYlYVx7/gIkBs4m5vhAv0DIQLZJ94wgU6JH99
+      dZsdqxbBL9AYKxML8N5botLLzthaAHsbd/Fnpug3KqTTj08k67ZauIPBh0oi37+xa4tkuFdm
+      U0IANsfGAjDoDHp09soYagvFGLKWLzM9NUVxL8/4WJKNYp1EKEJE67G+VWR55Rw+q9qhCM4E
+      tswFAug39tkpNcgX8phAvd0jmwqxs75GsdKk06gQyc5jDNocHBxwsLvLQVu0FxQcDdv+XMqe
+      EN9+55uowx6GCa3SBr+4ssG7736PaDlPdGwMxe0CXw5MFYczSFq0RRQckZF0gXbLdboD3ZJY
+      L1IS6fM4ySVDDz1mZ5fF7vGEC3RKcDkdTI9FTnoYgkNgawGo/TabOyWmZmdxOQ6v+j/+i6sn
+      6gKNJ4L8h3/xOyf2+YLDY2MBmNy9u87E9AzaoMsQJ6au0mzWcMkG9b7EZCrIxl6dybEQG7sV
+      lpbmHzTIFQgOg60FIDncVHdv0nPGkZwR9E4NWdYAcLmcXPvsGpopsYNOtbBLaSzDeFSURAoO
+      j40FIBMPe9gttpmaS7F19w7+2BhhnwOn04kkgc/poFjrEPQ66UZi+MQu64IjMpIu0E+vrJ9o
+      KkTY7+ZvfWv5sc/Z2WWxezzhAh2Sb1+ctG0ynMBejKQA/uhHH3F5tWRdQPPw6dDvXprh7//g
+      onWfLThWTkwAg/4Bv35/FW88yhuvPP5yATqs3mmwsPhFLUBpe5vI5CRfLo7c3t5hcvKLnhGt
+      3vDEdl3s9IYn8rmC5+PkZgDTxDRMHLLMjY9+xuXNJm+tTNBuNQlGszTqe/hS4zgNFz/58z9B
+      j86SDUg02hq+8iafXMvz5qUF8hWN6ZSXX/1yl6WLrxMTHaIFR+DkkuEkGdkhoxsGhsPDZDaJ
+      JxjjlQuLSKaJZIKBhKKo+CITRP1uTMDpcuENRHnttQskk2O49B5yIM6FlUVkRm49LzhmTmwG
+      cHvivPPd+GOfmxx3cqvfYTKVJeJ3Mzf/5B3UxzK5Rx6Lh7yMJ4PWDPSIu0RGRFH+qWIkbVBR
+      Ejma8YQNekh+cnmDzVLTmmD3d4k8TGvEH7w1y0wmas3nCl4KthGAMWjz6Y1VYulxkpEAPt/n
+      vTR1ul0Vn+/epUW7UcVQ/IT8jzbJ+pwrq4UTSYa7OJsSAjhl2EYA+rBHXzXwe2R++fNfcOG1
+      19jdXCUcS7K5kefC+UW2d/OkU3EUZcCd69tkxrNsb5eYncmwuV3m4msXxS6RgiNhn5JIp4/5
+      2Un2CvtMTOSQtQ7dbodGF8YzGQ72thgMdYaaRuOgQL09YKgZmFqXZqeP2m3S7A9O+igEpwzb
+      zAAOp4tBr8Lc3Dxat4bk9DG/6CIcidNpHBCMTrJfrpBIJnAqMpFikXA8gVOWiSUSeNwe4n5R
+      Eik4GiPpApWrLQaaNYd1ryTSQD7EJnnxsBffMzpB29llsXs84QIdknZvSOslb5M6kQo/88sv
+      sB+nRwCGTnegIqMjKx5czif/Iv/JT6+/dBfon//+23zvjSffsBPYk1MkAJW9UhkXfdzeGOVS
+      ifnlCfJ3dlkvVzi3NEMomiLkc530SAWniNMjAKBaLqDpGumkg367yOqOD68jwMJiFIU+uj5y
+      yxnBMXN6BCA7WFg6hyJpDHp9er0E8XAIp+mksr+DN5nCI+4BCI7IKRKAk2j43iIzGIJEOvPg
+      qUTy/EMv/c7FKRZyCUs+9rCL4LlxcQf4NHJ6BHAE3j43bttkOIG9GEkB/OGffsCvbxesC2jy
+      UDr0f/uXv48s+g+NBLYUQKteoNn3Q7/KUIbc+ASyJGHoOpgGyArtZpNQOIimGbhcCsOhisvl
+      QpIkhppOb6Cd9GEITgG2FMDnmKbJoF3n6vUeIZeB6QpS275BWQ2yOJGguLtBrzvEHfDw6We3
+      +PYP/gYTcdEYS3B4bCkAjyfI7TvXcfgijMVSONstJE+U2VyCK5UiKcmD0+XCHQwwMQbFTp/F
+      pSWCHnEPQHA0bCkApyfAm197+7HPXXrra488Ng/wpZuwmViAhVzMkrGY93eJtCr/RGAvRjIZ
+      TpREjmY8kQx3SH78/l3WC3VLYn11BnjvrVnOT6csiS04eZ4iAJP8boGxeIi6JhEP+sE0aTSb
+      OBwOAoHAQ6/dLx+QiIW5fuM6zkCCXCqKLxB44B622+2vvOcr6D2uXF3n1dfP0yltcWAEmc08
+      +TJm0G5iegJ4lEdvUF3fLB9bMtwrsykhgBHiqQJot9uYES/tap21O1UisTRuecjm6l2ml1bI
+      b64zNjVHc7/EUPYQjwYZDlUiPheXP/yAmfMXKa3dwJsYp7S5zvzyMlsb60zNTLOxXeTSm28y
+      rOXZyO8TCSpU2hJgUm4OMMwhZaPO+lYJp89DIp4kv7FGamKKVrVGJBDBn+xxbbPIeDrKrdUt
+      3nz76wS9IiVZcHiecn9fwlB7bO0WQDfJza/gkjV6fY1MLotD79LpG5j9OqY3it/jBMnB2FiG
+      /dI+mWyGoFOj2TOo1rpks2No3RpDU8FERtb61JsdWq0u8agfyeVnYWEBSRtQyOcp7BVoDWF5
+      Jkd27jyD2g71ro5pDAmnJvDLGvV6g2gqRbtRR+91qff6L+/MCUaCp8wAEvOLC9RbfWLREAYy
+      +LIYBhhaHw0nlwJRPIEI8U4DhyeA5HDg8XhYWEihMGRoKrz66gU8/hCoPSSnh2CsQSAUxuvx
+      EI2HkGNeqrUWsVgYw5SRZJOvv/NtJMlE1w0Uh0xAVkgsv0Ei28DtC+ByupDMEHHFQa1SwT89
+      RzSVIxz2PflwBILHMJIuUL3VRTesiWWaJoZ5r4cpgN/rwvMCG3HY2WWxezzhAh2SQqVNo2NN
+      l+bPs0EnxyKPbHkqOP3YUgB3b12l0TVYPn8Bv/vpQ2yVyzhTKb7ckfPPfn7Lchfo7733Cn/n
+      N88/+4WCU4UtBeAJxIhHoFDYI+Zz0jGcuCSN6n6BQCJHs7iD7goR8xrsbFeYc8KNrSLLK+fw
+      uRVenUsTfkrnuCNjwsxYGE178QQ70zQtiXMW4xmGRde19zFNczTXAFbeCTZNE8GyTO4AAANO
+      SURBVMMwLLsTbOXYzlo8q9cAmqbZqDOchTyreuuoWJkHZPXYzlK84xjbSM4AAsFhseUa4EUx
+      9AFXr3xKYnIBj0NHGw6Ip7M4HYf7Jdf6ba7d3eHVc0vcuXkVyZcgFvQgGyruSAr/EYvvC1t3
+      KVTbTE2Os762xeLyLKrho98+IJd7dIOPZxwdm6u3qfVNJlNh1raLnDs3h6q56HZbjGfSR4wH
+      eq/OZ+sVshGZnf02szPjuBxOGh2NbPqItc6mwbVPr+COZPCaHQ66JuPpOGGvg1rfSfqI9Rr9
+      VpUbq9vML86ydvsOydwsHgW0fpdEZhzliJV5e1t3KRSKpGdXKGyuj+YlUH9/l9TKG/QaFbZu
+      X6U+lI50ohxuP7GQD03r4fKnkNUeezt32Tno4nMe/ZSNTcyQCPsol+pcvLRIKV/g8vu/whN5
+      npwiiUgkhK5pHDR6XHp1kq21XT788GNC0cfvuPNUTJONnTJOh0qzZzA/GWNvO88HV26SiIeP
+      Hs4wqNXr+Hxu+rqTZNBFuZDno+tbpGL+I8fb3doCxUmjdMDUuYt062Xu3viEjuE68pcfIDs1
+      TyQ+htSqce7SxdEUgOL1Ui3soiGTGMthdFvoR7jSM3WNVqtFr6/RadfoqRqhWBoPA4bP0Xto
+      Y/UmDn+coNuksFtC8biZnp2hcnBw5FiYBrrkxiXfm9kK+X08oQDTk1kqtaNnwBpqh0q1zub6
+      DgO1z0GljjsQZGosSqXROfr4JIPFpYsU87uogw71VheXP0wu7qXaPnr3bp8/QDLmZb9SZ79U
+      QjNlUuOTDNp1jOe4etcHTXAF8LllCvniaK4BTNPkoFQgGEsjmRqYBg6nG8VxOL1rgy67hRLe
+      YBQ3Q2RPCLcioUgmquTE85S2jI+jUt6j2dUYG0tTq9VIp+JouoyuDb60EcihD47qfpGh5CYZ
+      8VE8aJJJRdBMBW3YP3q8+/R6PRTJ4KA5IBkNIMkKg8HR490793s4/THc0pD2EEJ+Dy6nk15/
+      gM93tA7ehq5SLJZJjo1RKxcJJcaQDB0MDYfbe+RZQBv0MZ0uFMmkWCiNpgAEgsMykpdAAsFh
+      EQIQnGmEAARnGiEAwZlGCEBwphECEJxphAAEZxohAMGZ5v8DMJByK9ARx+YAAAAASUVORK5C
+      YII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
